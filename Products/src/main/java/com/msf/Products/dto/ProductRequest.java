@@ -14,7 +14,6 @@ public class ProductRequest {
     @NotNull(message = "provide an valid description")
     private String description;
     @NotNull(message = "price should not be null")
-    private Long price;
-    @NotNull(message = "Please add some quantity")
+    private Double price;
     private int quantity;
 }
